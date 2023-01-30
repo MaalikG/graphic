@@ -58,6 +58,17 @@ text-align: center;
 
   #logo {
     background-image: url(index_01.gif);
-    max-width:200px;
-    max-height:200px;
+    max-width:190px;
+    max-height:190px;
+}
+
+@media(max-width: 1024px){
+main img {
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+header img {
+    height: 100px !important;
+}
 }
